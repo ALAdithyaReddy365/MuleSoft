@@ -4,7 +4,7 @@ public class Connectionn {
 	public static void main(String[] args){
         try {
 	        Class.forName("org.sqlite.JDBC");
-	        Connection con = DriverManager.getConnection("jdbc:sqlite:product.db");
+	        Connection con = DriverManager.getConnection("jdbc:sqlite:movies.db");
 	        if(con!=null)
 	        {
 	        	Statement stmt = con.createStatement();
